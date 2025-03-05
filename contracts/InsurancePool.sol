@@ -25,7 +25,7 @@ contract InsurancePool {
     }
 
     modifier checkExpiration(address user) {
-        require(block.timestamp <= expiration[user], "Coverage expired");
+        require(block.timestamp <= expiration[user], "Coverage expired.");
         _;
     }
 
