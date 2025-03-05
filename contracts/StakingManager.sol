@@ -19,7 +19,7 @@ contract StakingManager is AccessControl {
     
     constructor(address tokenAddress, uint256 _rewardRate) {
         require(tokenAddress != address(0), "Invalid token address");
-        require(_rewardRate > 0, "Reward rate must be greater than zero");
+        require(_rewardRate > 0, "Reward rate must be greater than zero.");
         token = ERC20Token(tokenAddress);
         rewardRate = _rewardRate;
     }
