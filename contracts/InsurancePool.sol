@@ -41,7 +41,7 @@ contract InsurancePool {
     // Withdraw from the pool, only if the minimum retention is maintained
     function withdraw(uint256 amount) public {
         require(amount <= deposits[msg.sender], "Insufficient balance.");
-        require(totalPool - amount >= MIN_RETENTION, "Pool must retain minimum liquidity");
+        require(totalPool - amount >= MIN_RETENTION, "Pool must retain minimum liquidity.");
         deposits[msg.sender] -= amount;
         totalPool -= amount;
         emit Withdrawn(msg.sender, amount);
