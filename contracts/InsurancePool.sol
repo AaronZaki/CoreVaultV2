@@ -49,7 +49,7 @@ contract InsurancePool {
 
     // Make a claim for coverage, requires active coverage and respects risk level
     function makeClaim(uint256 claimAmount) public checkExpiration(msg.sender) {
-        require(claimAmount <= deposits[msg.sender] * riskLevel[msg.sender] / 100, "Claim exceeds allowable amount");
+        require(claimAmount <= deposits[msg.sender] * riskLevel[msg.sender] / 100, "Claim exceeds allowable amount.");
         deposits[msg.sender] -= claimAmount;
         totalPool -= claimAmount;
         emit ClaimMade(msg.sender, claimAmount);
