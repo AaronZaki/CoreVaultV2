@@ -1,4 +1,4 @@
-# CoreVault Solidity Project
+# CoreVaultV2 Solidity Project
 
 ![CoreVault Banner](./assets/banner.png)
 
