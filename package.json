@@ -1,0 +1,18 @@
+{
+  "name": "corevault-project",
+  "version": "1.0.0",
+  "description": "CoreVault smart contract project",
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "deploy": "npx hardhat run scripts/deploy.js --network sepolia"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "ethers": "^6.3.0"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^3.0.0",
+    "hardhat": "^2.17.0"
+  }
+}
