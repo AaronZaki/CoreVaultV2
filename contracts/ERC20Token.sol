@@ -43,7 +43,7 @@ contract ERC20Token is AccessControl {
     }
 
     function transferFrom(address sender, address recipient, uint256 amount) public returns (bool) {
-        require(amount <= allowance[sender][msg.sender], "Allowance exceeded");
+        require(amount <= allowance[sender][msg.sender], "Allowance exceeded.");
         require(balanceOf[sender] >= amount, "Insufficient balance");
         
         allowance[sender][msg.sender] -= amount;
