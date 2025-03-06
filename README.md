@@ -2,7 +2,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 ![Build Status](https://github.com/AaronZaki/CoreVaultV2/actions/workflows/build.yml/badge.svg)
 [![Docs](https://img.shields.io/badge/docs-%F0%9F%93%84-blue)](https://medium.com/core-vault/tagged/solidity)
-[![Contribute](https://img.shields.io/badge/contribute-%E2%9C%A8-orange)](https://github.com/AaronZaki/CoreVaultV2/CONTRIBUTING.md)
+[![Contribute](https://img.shields.io/badge/contribute-%E2%9C%A8-orange)](https://github.com/AaronZaki/CoreVaultV2/blob/main/CONTRIBUTING.md)
 
 ![CoreVault Banner](./assets/banner.png)
 
