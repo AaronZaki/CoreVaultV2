@@ -3,6 +3,8 @@
 ![CoreVault Banner](./assets/banner.png)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 ![Build](https://github.com/AaronZaki/CoreVaultV2/workflows/build/badge.svg)
+![Version](https://img.shields.io/github/v/release/AaronZaki/CoreVaultV2)
+
 
 
 ## Overview
