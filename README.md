@@ -2,6 +2,8 @@
 
 ![CoreVault Banner](./assets/banner.png)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+![Build](https://github.com/AaronZaki/CoreVaultV2/workflows/build/badge.svg)
+
 
 ## Overview
 CoreVaultV2 is a Solidity-based smart contract system designed for decentralized token management, including staking, liquidity provision, and reward distribution. The main contract, `CoreVault.sol`, manages the token economy, while additional contracts provide extended functionalities.
