@@ -1,7 +1,7 @@
 # CoreVaultV2 Solidity Project
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 ![Build Status](https://github.com/AaronZaki/CoreVaultV2/actions/workflows/build.yml/badge.svg)
-[![Docs](https://img.shields.io/badge/docs-%F0%9F%93%84-blue)]([https://your-docs-url.com](https://medium.com/core-vault/tagged/solidity])
+[![Docs](https://img.shields.io/badge/docs-%F0%9F%93%84-blue)][https://your-docs-url.com](https://medium.com/core-vault/tagged/solidity]
 
 ![CoreVault Banner](./assets/banner.png)
 
