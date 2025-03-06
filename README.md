@@ -1,7 +1,6 @@
 # CoreVaultV2 Solidity Project
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 ![Build Status](https://github.com/AaronZaki/CoreVaultV2/actions/workflows/build.yml/badge.svg)
-![Version](https://img.shields.io/github/v/release/AaronZaki/CoreVaultV2)
 
 ![CoreVault Banner](./assets/banner.png)
 
